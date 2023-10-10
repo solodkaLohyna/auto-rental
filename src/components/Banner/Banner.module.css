@@ -1,0 +1,21 @@
+.banner_wrap {
+    height: 134px;
+    background-color: #F6F7F9;
+    display: flex;
+    justify-content: center;
+}
+
+.banner {
+    background-color: rgb(255, 255, 255);
+    height: 132px;
+    width: 90%;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: -56px;
+}
+
+.banner p {
+    margin: 0;
+    padding: 50px 0;
+    font-size: 20px;
+}

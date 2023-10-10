@@ -1,0 +1,66 @@
+.header {
+    height: 100px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 64px;
+}
+
+.text p {
+    margin: 0;
+}
+
+.logo_text {
+    display: flex;
+}
+
+.page_navigation {
+    display: flex;
+    gap: 19.08px;
+    /*align-items: center;*/
+}
+
+.page_navigation a {
+    text-decoration: none;
+}
+
+.page_navigation a:link {
+    color: #1A202C;
+}
+
+.page_navigation a:visited {
+    color: #1A202C;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+
+.navbar p {
+    margin: 0;
+    padding: 0 18px;
+    height: 20px;
+}
+
+.account {
+    display: flex;
+    gap: 27.24px;
+}
+
+.register {
+    border: none;
+    background: none;
+    text-decoration: underline;
+    color: rgba(0, 0, 0, 0.75);
+}
+
+.login {
+    border: none;
+    background: black;
+    padding: 8.5px 21.5px;
+    color: white;
+    border-radius: 4px;
+}

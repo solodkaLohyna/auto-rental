@@ -1,0 +1,35 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 277px;
+    color: #1A202C;
+}
+
+.container h1 {
+    font-size: 24px;
+}
+
+.container p {
+    font-size: 14px;
+    text-align: center;
+}
+
+.container:nth-child(2) {
+    position: relative;
+}
+
+.container:nth-child(2)::before {
+    max-width: 357px;
+    content: url("/line.png");
+    position: absolute;
+    left: -19vw;
+    top: 10px;
+}
+
+.container:nth-child(2)::after {
+    content: url("/line.png");
+    position: absolute;
+    left: 13vw;
+    top: 10px;
+}

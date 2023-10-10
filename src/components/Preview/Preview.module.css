@@ -1,0 +1,50 @@
+.text_wrap {
+    height: 780px;
+    background-image: url("/previewcar.png");
+    background-size: cover;
+    background-position: center bottom;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+    gap: 81px;
+    padding-top: 50px;
+}
+
+.text {
+    display: flex;
+    width: 906px;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    text-align: center;
+}
+
+.text p {
+    margin: 0;
+    color: black;
+    font-size: 18px;
+    /* font-family: Monda; */
+    font-weight: 500;
+}
+
+.text h1 {
+    color: black;
+    font-size: 64px;
+    font-family: Monda;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 77.57px;
+    margin: 0;
+}
+
+.booking {
+    height: 56px;
+    color: #1A202C;
+    font-size: 23px;
+    font-family: Oxanium;
+    font-weight: 700;
+    border: none;
+    border-radius: 5px;
+    padding: 0 25.3px;
+}

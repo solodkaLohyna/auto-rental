@@ -1,0 +1,39 @@
+.wrap {
+    height: 611px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    margin: 43px 63px;
+}
+
+.container h1 {
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 90px;
+    margin: 0 auto;
+}
+
+.container p {
+    font-size: 18px;
+    margin: 0 auto;
+}
+
+.illustration {
+    display: flex;
+    margin: 67px 77px;
+    justify-content: space-between;
+}
+
+.illustration:nth-child(2) {
+    color: red;
+}
+
+
+/* .illustration h1 {
+    color: #1A202C;
+    font-size: 24px;
+    font-weight: 600;
+} */

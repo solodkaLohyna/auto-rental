@@ -1,0 +1,170 @@
+/*!*************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/components/Preview/Preview.module.css ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************************/
+.Preview_text_wrap__0QZCV {
+    height: 780px;
+    background-image: url("/previewcar.png");
+    background-size: cover;
+    background-position: center bottom;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+    gap: 81px;
+    padding-top: 50px;
+}
+
+.Preview_text__8kVqN {
+    display: flex;
+    width: 906px;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    text-align: center;
+}
+
+.Preview_text__8kVqN p {
+    margin: 0;
+    color: black;
+    font-size: 18px;
+    /* font-family: Monda; */
+    font-weight: 500;
+}
+
+.Preview_text__8kVqN h1 {
+    color: black;
+    font-size: 64px;
+    font-family: Monda;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 77.57px;
+    margin: 0;
+}
+
+.Preview_booking__IxJd9 {
+    height: 56px;
+    color: #1A202C;
+    font-size: 23px;
+    font-family: Oxanium;
+    font-weight: 700;
+    border: none;
+    border-radius: 5px;
+    padding: 0 25.3px;
+}
+/*!***********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/components/Banner/Banner.module.css ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************/
+.Banner_banner_wrap__TTejc {
+    height: 134px;
+    background-color: #F6F7F9;
+    display: flex;
+    justify-content: center;
+}
+
+.Banner_banner__cvXnk {
+    background-color: rgb(255, 255, 255);
+    height: 132px;
+    width: 90%;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: -56px;
+}
+
+.Banner_banner__cvXnk p {
+    margin: 0;
+    padding: 50px 0;
+    font-size: 20px;
+}
+/*!*************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/components/Working/Working.module.css ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************************/
+.Working_wrap__yVU4g {
+    height: 611px;
+}
+
+.Working_container__RWG9y {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    margin: 43px 63px;
+}
+
+.Working_container__RWG9y h1 {
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 90px;
+    margin: 0 auto;
+}
+
+.Working_container__RWG9y p {
+    font-size: 18px;
+    margin: 0 auto;
+}
+
+.Working_illustration__2_ijO {
+    display: flex;
+    margin: 67px 77px;
+    justify-content: space-between;
+}
+
+.Working_illustration__2_ijO:nth-child(2) {
+    color: red;
+}
+
+
+/* .illustration h1 {
+    color: #1A202C;
+    font-size: 24px;
+    font-weight: 600;
+} */
+/*!***********************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/components/Instructions/Instructions.module.css ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************************/
+.Instructions_container__3CWYr {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 277px;
+    color: #1A202C;
+}
+
+.Instructions_container__3CWYr h1 {
+    font-size: 24px;
+}
+
+.Instructions_container__3CWYr p {
+    font-size: 14px;
+    text-align: center;
+}
+
+.Instructions_container__3CWYr:nth-child(2) {
+    position: relative;
+}
+
+.Instructions_container__3CWYr:nth-child(2)::before {
+    max-width: 357px;
+    content: url("/line.png");
+    position: absolute;
+    left: -19vw;
+    top: 10px;
+}
+
+.Instructions_container__3CWYr:nth-child(2)::after {
+    content: url("/line.png");
+    position: absolute;
+    left: 13vw;
+    top: 10px;
+}
+/*!***********************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/components/ContentTitle/ContentTitle.module.css ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************************/
+.ContentTitle_wrap__vZ7ce {
+    text-align: center;
+}
+/*!*************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/components/Content/Content.module.css ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************************/
+.Content_content_container___xmOm {
+    display: flex;
+    justify-content: center;
+}
