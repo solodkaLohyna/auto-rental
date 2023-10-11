@@ -8,16 +8,16 @@ export const Content =(props:any) => {
         return <Tab tabObj = {tabItem}/>
     });
     const mapTab = props.tabNameObj.map((tabNameItem: any) =>{
-        return <TabName tabNameItem = {tabNameItem}/>
+        return <TabName tabNameObj = {tabNameItem}/>
     });
 
 
     return(
         <div className={styles.content_container}>
-        <ContentTitle/>
-        <div className={styles.tabs_container}>
-            
-        </div>
+            <ContentTitle/>
+            <div className={styles.tabs_container}>
+                {mapTab}
+            </div>
         </div>
         
     )
