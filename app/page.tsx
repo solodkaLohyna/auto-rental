@@ -13,7 +13,7 @@ export default function Home() {
     <Preview />
     <Banner />
     {<Working howItWorkObj = {instruction}/>}
-    {<Content tabObj = {tabsContent} tabNameObj = {tabsNames}/>}
+    {<Content cardObj = {tabsContent} tabNameObj = {tabsNames}/>}
     </>
   )
 }

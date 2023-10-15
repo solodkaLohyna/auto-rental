@@ -1,0 +1,52 @@
+.wrap {
+    background-image: url("/offlineCarCatalogue.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 388px;
+    padding: 24px;
+    display: flex;
+    /* height: 100%; */
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.wrap p {
+    margin: 0;
+    color: #1A202C;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.wrap span {
+    font-size: 14px;
+}
+
+.card_container {
+    padding: 24px;
+    display: flex;
+    /* height: 100%; */
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.description {
+    display: flex;
+    justify-content: space-between;
+}
+
+.description p {
+    /* text-align: center; */
+    line-height: 44px;
+}
+
+.description button {
+    border: none;
+    border-radius: 4px;
+    padding: 0 20px;
+    color: #1A202C;
+    font-size: 16px;
+    line-height: 44px;
+    font-weight: 600;
+}
