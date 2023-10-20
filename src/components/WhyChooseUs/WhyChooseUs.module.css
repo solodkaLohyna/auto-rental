@@ -1,0 +1,30 @@
+.container {
+    margin-bottom: 120px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.content img {
+    /* width: min-content; */
+    height: min-content;
+}
+
+.text_info {
+    text-align: center;
+}
+
+.text_info h1 {
+    color: black;
+    font-size: 48px;
+    font-weight: 500;
+    margin: 100px auto 18px auto;
+}
+
+.text_info p {
+    color: #1A202C;
+    font-size: 18px;
+    margin-bottom: 50px;
+}
