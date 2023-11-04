@@ -13,11 +13,10 @@ export const Header = () => {
             </div>
             <nav className={styles.navbar}>
                 <div className={styles.page_navigation}>
-                    <a href="">Home</a>
-                    <a href="">How it Work</a>
-                    <a href="">Rental Details</a>
-                    <a href="">Why Choose Us</a>
-                    <a href="">Testimonial</a>
+                    <a href = "/">Home</a>
+                    <a href = " ">How it works</a>
+                    <a href = " ">Renta Details</a>
+                    <a href = " ">Why Choose Us</a>
                 </div>
                 <p>|</p>
                 <div className={styles.account}>
