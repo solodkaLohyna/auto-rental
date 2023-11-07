@@ -14,7 +14,7 @@ export const Content =(props:any) => {
 
 
     return(
-        <div className={styles.content_container}>
+        <section className={styles.content_container} id="content">
             <ContentTitle/>
             <div className={styles.gallery_container}>
                 <div className={styles.tabs_container}>
@@ -27,6 +27,6 @@ export const Content =(props:any) => {
                 <button className={styles.dont_click}>Don't click me =:C</button>
             </div>
 
-        </div>    
+        </section>    
     )
 }

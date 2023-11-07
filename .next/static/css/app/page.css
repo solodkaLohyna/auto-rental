@@ -51,30 +51,6 @@
     border-radius: 5px;
     padding: 0 25.3px;
 }
-/*!***********************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/components/Banner/Banner.module.css ***!
-  \***********************************************************************************************************************************************************************************************************************************************************************************/
-.Banner_banner_wrap__TTejc {
-    height: 134px;
-    background-color: #F6F7F9;
-    display: flex;
-    justify-content: center;
-}
-
-.Banner_banner__cvXnk {
-    background-color: rgb(255, 255, 255);
-    height: 132px;
-    width: 90%;
-    text-align: center;
-    border-radius: 10px;
-    margin-top: -56px;
-}
-
-.Banner_banner__cvXnk p {
-    margin: 0;
-    padding: 50px 0;
-    font-size: 20px;
-}
 /*!*************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/components/Working/Working.module.css ***!
   \*************************************************************************************************************************************************************************************************************************************************************************************/
@@ -155,6 +131,61 @@
     left: 13vw;
     top: 10px;
 }
+/*!*******************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/components/Card/Card.module.css ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************/
+.Card_wrap__SnRHc {
+    background-image: url("/offlineCarCatalogue.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 388px;
+    padding: 24px;
+    display: flex;
+    /* height: 100%; */
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.Card_wrap__SnRHc p {
+    margin: 0;
+    color: #1A202C;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.Card_wrap__SnRHc span {
+    font-size: 14px;
+}
+
+.Card_card_container___sOE0 {
+    padding: 24px;
+    display: flex;
+    /* height: 100%; */
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.Card_description__eYvpH {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Card_description__eYvpH p {
+    /* text-align: center; */
+    line-height: 44px;
+}
+
+.Card_description__eYvpH button {
+    border: none;
+    border-radius: 4px;
+    padding: 0 20px;
+    color: #1A202C;
+    font-size: 16px;
+    line-height: 44px;
+    font-weight: 600;
+}
 /*!***********************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/components/ContentTitle/ContentTitle.module.css ***!
   \***********************************************************************************************************************************************************************************************************************************************************************************************/
@@ -162,9 +193,144 @@
     text-align: center;
 }
 /*!*************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/components/TabName/TabName.module.css ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************************/
+.TabName_tab__VOM3_ {
+    width: 304px;
+    font-size: 13px;
+    margin-top: 4vh;
+    color: #1a202ca8;
+}
+
+.TabName_underline__mS10i {
+    height: 2px;
+    margin-top: 35px;
+    background-color: #0000001e;
+}
+
+.TabName_tab__VOM3_:nth-child(1) {
+    color: #1A202C;
+}
+
+.TabName_tab__VOM3_:nth-child(1) .TabName_underline__mS10i {
+    height: 3px;
+    margin-top: 35px;
+    background-color: #000000;
+}
+/*!*************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/components/Content/Content.module.css ***!
   \*************************************************************************************************************************************************************************************************************************************************************************************/
 .Content_content_container___xmOm {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #F6F7F9;
+    /* width: 130vh; */
+}
+
+.Content_dont_click__Iq52M {
+    margin: 65px 0 89px 0;
+    /* width: 156px; */
+    border: none;
+    color: #101010;
+    font-size: 18px;
+    background-color: White;
+    padding: 10px 20px;
+    width: -moz-fit-content;
+    width: fit-content;
+}
+
+.Content_gallery_container__QfZlZ {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Content_tabs_container__27kA6 {
+    display: flex;
+    width: 100%;
+    text-align: center;
+    gap: 31.52px;
+    justify-content: center
+}
+
+.Content_gallery__IDmwH {
+    display: grid;
+    margin-top: 48px;
+    grid-template-columns: repeat(4, 304px);
+    -moz-column-gap: 31.52px;
+         column-gap: 31.52px;
+    row-gap: 32px;
+}
+/*!*********************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/components/WhyChooseUs/WhyChooseUs.module.css ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************************/
+.WhyChooseUs_container__IaJ7b {
+    margin-bottom: 120px;
+}
+
+.WhyChooseUs_content__Y3tXD {
+    display: flex;
+    justify-content: space-around;
+}
+
+.WhyChooseUs_content__Y3tXD img {
+    /* width: min-content; */
+    height: -moz-min-content;
+    height: min-content;
+}
+
+.WhyChooseUs_text_info__jimLr {
+    text-align: center;
+}
+
+.WhyChooseUs_text_info__jimLr h1 {
+    color: black;
+    font-size: 48px;
+    font-weight: 500;
+    margin: 100px auto 18px auto;
+}
+
+.WhyChooseUs_text_info__jimLr p {
+    color: #1A202C;
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+/*!*************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/components/Article/Article.module.css ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************************/
+.Article_container__GZYPE {
+    display: flex;
+    /* height: 100px; */
+    max-width: 500px;
+    min-width: 250px;
+}
+
+.Article_container__GZYPE img {
+    height: -moz-fit-content;
+    height: fit-content;
+    padding: 5px 25px;
+}
+
+.Article_container__GZYPE h1 {
+    margin: 0;
+    color: #1A202C;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.Article_container__GZYPE p {
+    color: #1A202C;
+    font-size: 16px;
+    font-weight: 400;
+}
+/*!*************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/components/YTVideo/YTVideo.module.css ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************************/
+.YTVideo_container__ZQSbv {
+    background-color: #F3F3F3;
+    width: 100%;
     display: flex;
     justify-content: center;
 }
