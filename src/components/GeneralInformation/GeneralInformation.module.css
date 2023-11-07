@@ -1,0 +1,9 @@
+.container p {
+    width: 292px;
+    padding-block: 10px;
+}
+
+.socials_container {
+    display: flex;
+    gap: 20px;
+}
