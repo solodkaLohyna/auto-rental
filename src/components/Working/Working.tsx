@@ -6,7 +6,7 @@ export const Working = (props: any) => {
         return <Instructions howItWorkObj = {instructionItem}/>
     });
     return(
-        <div className={styles.wrap}>
+        <section className={styles.wrap} id='working'>
             <div className={styles.container}>
                 <div className={styles.inscription}>
                     <h1>How it work</h1>
@@ -16,6 +16,6 @@ export const Working = (props: any) => {
                     {mapInstruction}
                 </div>
             </div>
-        </div>
+        </section>
     )
 }
